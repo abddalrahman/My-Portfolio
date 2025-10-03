@@ -259,7 +259,7 @@ function displayProjects(){
 		let projDOM = `
 		<div class="proj-card overflow-hidden position-relative" data-id=${project.id}>
 		<span class="overflow-hidden" >
-		<img src="assets/images/${project.mainImageSrc}" alt="${project.title}">
+		<img src="assets/images/${project.mainImageSrc}" alt="${project.title}" loading="lazy">
 		</span>	
 		<h5 class="position-absolute f-roboto d-flex align-items-center justify-content-center"><span>${project.title}</span></h5>
 		</div>
