@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Abd-Alrahman</title>
+	<!-- icons cdn -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+	<!-- swiper cdn -->
+	<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+	<!-- fonts cdn -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+	<!-- bootstrap cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+	integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- my css -->
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<header class="position-absolute">
+		<h1>Front-end Developer</h1>
+	</header>
+	<main>
+		<div class="all-content d-flex position-relative">
+			<span class="open-aside position-fixed d-flex align-items-center justify-content-center d-xl-none">
+				<i class="fa-solid fa-info"></i>
+			</span>
+
+			<div class="cover position-fixed d-flex align-items-center justify-content-center d-none">
+				<div class="proj-d p-md-4 py-4 px-3 row overflow-auto mx-0 rounded-2">
+					<div class="proj-text-info d-flex flex-column col-12 col-md-4 px-0 mb-4 mb-md-0">
+						<h2></h2>
+						<h3 class="main-sec-head">Description</h3>
+						<p></p>
+						<h3 class="main-sec-head">Technologies Used</h3>
+						<ul class="d-flex flex-wrap gap-3">
+
+						</ul>
+						
+					</div>
+					<div class="proj-imgs d-flex flex-column justify-content-between col-12 col-md-8 px-0 ps-md-3">
+						<div class="swiper swip-gallery mb-3">
+							<div class="swiper-wrapper">
+
+							</div>
+							<div class="swiper-pagination swip-gallery-points"></div>
+						</div>
+
+						<div class="btns-container d-flex align-items-center justify-content-between">
+							<div class="d-flex align-items-center gap-2">
+								<a class="py-md-2 px-md-3 py-1 px-2 rounded-1" href="#" target="_blank">Show Repo</a>
+								<a class="py-md-2 px-md-3 py-1 px-2 rounded-1" href="#" target="_blank">Live Preview</a>
+							</div>
+							<span class="py-md-2 px-md-3 py-1 px-2 rounded-1 close-cover" onclick="closeCover()">Close</span>
+						</div>
+					</div>
+				</div>	
+			</div>	
+
+			<div class="aside-section d-flex flex-column position-fixed">
+				<span class="close-aside position-absolute d-flex align-items-center justify-content-center d-xl-none">
+					<i class="fa-solid fa-xmark"></i>
+				</span>
+				<div class="main-personal-info px-3 py-5 d-flex flex-column align-items-center">
+					<img class="rounded-circle" src="./assets//images/1669756935215.jpg" alt="peronal image">
+					<h3 class="pt-3">Eng.Abdalrahman Alani</h3>
+					<h4>Front-end Developer | React.js</h4>
+					<h4 class="mb-0">ITE Student at SVU</h4>
+				</div>
+				<div class="d-flex flex-column px-4 pt-4 other-personal-info">
+					<ul>
+						<li class=" d-flex justify-content-between align-items-center mb-2"><span>Country: </span> <span>Syria</span></li>
+						<li class=" d-flex justify-content-between align-items-center mb-2"><span>City: </span> <span>Damascus</span></li>
+						<li class=" d-flex justify-content-between align-items-center mb-3"><span>D.O.B: </span> <span>2003/1/1</span></li>
+					</ul>
+					<div class="langs d-flex justify-content-around align-items-center py-4">
+						<div class="d-flex flex-column lang align-items-center gap-2">
+							<span class="d-flex align-items-center justify-content-center rounded-circle">
+								<span class="rounded-circle d-flex align-items-center justify-content-center">100%</span>
+							</span>
+							<span>Arabic</span>
+						</div>
+						<div class="d-flex flex-column lang align-items-center gap-2">
+							<span class="d-flex align-items-center justify-content-center rounded-circle">
+								<span class="rounded-circle d-flex align-items-center justify-content-center">55%</span>
+							</span>
+							<span>English</span>
+						</div>
+					</div>
+					<div class="skills py-4">
+						<div class="d-flex gap-2 flex-column skill">
+							<div class="d-flex justify-content-between align-items-center"><span>HTML</span> <span>90%</span></div>
+							<span class="w-100 d-flex align-items-center mb-3"><span data-w="90" class="d-inline-block"></span></span>
+						</div>
+						<div class="d-flex gap-2 flex-column skill">
+							<div class="d-flex justify-content-between align-items-center"><span>CSS</span> <span>95%</span></div>
+							<span class="w-100 d-flex align-items-center mb-3"><span data-w="95" class="d-inline-block"></span></span>
+						</div>
+						<div class="d-flex gap-2 flex-column skill">
+							<div class="d-flex justify-content-between align-items-center"><span>JavaScript</span> <span>80%</span></div>
+							<span class="w-100 d-flex align-items-center mb-3"><span data-w="80" class="d-inline-block"></span></span>
+						</div>
+						<div class="d-flex gap-2 flex-column skill">
+							<div class="d-flex justify-content-between align-items-center"><span>BootStrap</span> <span>85%</span></div>
+							<span class="w-100 d-flex align-items-center mb-3"><span data-w="85" class="d-inline-block"></span></span>
+						</div>
+						<div class="d-flex gap-2 flex-column skill">
+							<div class="d-flex justify-content-between align-items-center"><span>React.js</span> <span>60%</span></div>
+							<span class="w-100 d-flex align-items-center mb-1"><span data-w="60" class="d-inline-block"></span></span>
+						</div>
+					</div>
+					<div class="also-know py-4">
+						<div class="d-flex align-items-center mb-2">
+							<span class="material-symbols-outlined me-2">check</span> <span>Git-GitHub</span>
+						</div>
+						<div class="d-flex align-items-center mb-2">
+							<span class="material-symbols-outlined me-2">check</span> <span>Postman API Testing</span>
+						</div>
+						<div class="d-flex align-items-center mb-2">
+							<span class="material-symbols-outlined me-2">check</span> <span>problem solving</span>
+						</div>
+						<div class="d-flex align-items-center mb-2">
+							<span class="material-symbols-outlined me-2">check</span> <span>Long live learn</span>
+						</div>
+					</div>
+				</div>
+				<div class="contact-links d-flex align-items-center justify-content-around py-3 position-sticky">
+					<a href="https://www.linkedin.com/in/abdalrahman-alani-ba7187381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+					<a href="https://www.instagram.com/abd_alrahmanalani?igsh=YXRvMjZheDk2Zmxs" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://github.com/abddalrahman" target="_blank"><i class="fa-brands fa-github"></i></a>
+				</div>
+			</div>	
+
+			<div class="main-content-section">
+				<div class="imgbehind position-relative">
+					<div class="position-absolute overflow-hidden">
+						<img src="./assets/images/edited2.png" alt="background image">
+						<div class="hello-text position-absolute d-flex flex-column justify-content-between">
+							<h2 class="f-roboto">Turn your ideas into reality</h2>
+							<p>&lt;<span>span</span>&gt;&lt;<span>strong</span>&gt;<strong>Welcome</strong>.&lt;/<span>strong</span>&gt;
+							I'm here to give you my best.&lt;/<span>span</span>&gt;</p>
+							<a href="https://github.com/abddalrahman" target="_blank" class="px-md-4 py-md-3 py-sm-3 px-sm-3 py-2 px-2">View My GitHub</a>
+						</div>
+						<img class="position-absolute tec-logo n1" src="assets/images/html-logo.png" alt="html">
+						<img class="position-absolute tec-logo n2" src="assets/images/css-logo.png" alt="css">
+						<img class="position-absolute tec-logo n3" src="assets/images/js-logo.webp" alt="js">
+						<img class="position-absolute tec-logo n4" src="assets/images/Bootstrap_logo.png" alt="bootstrap">
+						<img class="position-absolute tec-logo n5" src="assets/images/react-logo.png" alt="react">
+					</div>
+				</div>
+
+				<div class="about-me mt-5 pb-5 my-container">
+					<h3 class="main-sec-head">
+						About Me
+					</h3>
+					<p>Front-end developer and ITE university student. I developed several internship projects to learn web development and prepare for real-world work. I completed a five-month internship that focused on practical skills and real-world programming experience. I always strive for improvement, continuous learning, and pay attention to the smallest details to achieve the best results. I love designing elegant layouts, writing organized code, and building websites that look and function well.</p>
+				</div>
+
+				<div class="education mt-5 pb-5 my-container">
+					<h3 class="main-sec-head">
+						Education
+					</h3>
+					<div class="p-4 rounded-2 mb-3">
+						<h3 class="mb-0">Information Technology Engnearing (ITE)</h3>
+						<p class="my-4">A fourth-year student at the <a href="https://www.svuonline.org/" target="_blank">Syrian Virtual University (SVU)</a>, ITE program, has just started specializing in Artificial Intelligence, Machine Learning track.</p>
+						<div class="d-flex align-items-center justify-content-between">
+							<span>Status: Student</span>
+							<span>2022 - Present</span>
+						</div>
+					</div>
+					<div class="p-4 rounded-2 mb-3">
+						<h3 class="mb-0">Front-end Developer Training Course</h3>
+						<p class="my-4">A Front-end training course from the <a href="https://www.facebook.com/Tamkeen.developer?mibextid=ZbWKwL" target="_blank">Tamkeen</a> team at Al-Mobarmjoon Company.The course included HTML, CSS, JavaScript, Bootstrap, and React.js.It also included the use of libraries such as Swiper.js and AOS.js .</p>
+						<div class="d-flex align-items-center justify-content-between">
+							<span>Status: Complete</span>
+							<span>2025/3 - 2025/7</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="contact-me mt-5 pb-5 my-container">
+					<h3 class="main-sec-head">
+						Contact Me
+					</h3>
+					<div class="contact-cards d-grid">
+						<div>
+							<i class="fa-solid fa-phone"></i>
+							<h4>Phone Number</h4>
+							<span>+963988658276</span>
+						</div>
+						<div>
+							<i class="fa-solid fa-envelope"></i>
+							<h4>Email</h4>
+							<span>abdalrahman2003it@gmail.com</span>
+						</div>
+						<div>
+							<i class="fa-solid fa-clock"></i>
+							<h4>Working Hours</h4>
+							<span>from 9:00 Am to 6:00 Pm</span>
+						</div>
+						<div>
+							<i class="fa-solid fa-location-dot"></i>
+							<h4>Location</h4>
+							<span>Syria, Damascus, Al-Hama</span>
+						</div>
+					</div>
+
+					<div class="other-contact-links d-flex flex-column gap-4 mt-5">
+						<div class="d-flex align-items-center">
+							<span class="me-md-4 me-3"><i class="fa-brands fa-linkedin-in"></i></span>
+							<p class="mb-0">Follow me on Linkedin</p>
+							<a href="https://www.linkedin.com/in/abdalrahman-alani-ba7187381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="ms-auto">Follow</a>
+						</div>
+						<div class="d-flex align-items-center">
+							<span class="me-md-4 me-3"><i class="fa-brands fa-instagram"></i></span>
+							<p class="mb-0">Follow me on Instagram</p>
+							<a href="https://www.instagram.com/abd_alrahmanalani?igsh=YXRvMjZheDk2Zmxs" target="_blank" class="ms-auto">Follow</a>
+						</div>
+						<div class="d-flex align-items-center">
+							<span class="me-md-4 me-3"><i class="fa-brands fa-github"></i></span>
+							<p class="mb-0">Follow me on GitHub</p>
+							<a href="https://github.com/abddalrahman" target="_blank" class="ms-auto">Follow</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="projects mt-5 pb-5 my-container">
+
+					<h3 class="main-sec-head">
+						My Projects
+					</h3>
+
+					<h4 class="sub-head mt-5">
+						HTML & CSS
+					</h4>
+					<p class="cat-desc">Projects in this category focus on building static web interfaces using semantic HTML and structured CSS. They emphasize layout precision, responsive design, and visual clarity without incorporating dynamic behavior or user interaction.</p>
+					<div class="proj-cards category-1 d-grid my-4 py-2">
+					
+					</div>
+
+					<h4 class="sub-head mt-5">
+						HTML & CSS & JS
+					</h4>
+					<p class="cat-desc">Projects in this category demonstrate the integration of structure, design, and interactivity. They explore how JavaScript complements HTML and CSS to build responsive layouts, trigger user-driven behaviors, and manage dynamic content updates. These examples reflect foundational Front-end techniques applied in practical scenarios.</p>
+					<div class="proj-cards category-2 d-grid mt-4 pt-2">
+						
+						
+					</div>
+					
+					<h4 class="sub-head mt-5">
+						JS App
+					</h4>
+					<p class="cat-desc">This section includes simple applications. They serve as practical exercises to explore core language features such as DOM manipulation, event handling, local storage, and modular logic. The goal is to deepen understanding of JavaScript through hands-on development.</p>
+					<div class="proj-cards category-3 d-grid mt-4 pt-2">
+						
+					</div>
+					
+					<h4 class="sub-head mt-5">
+						React Projects
+					</h4>
+					<p class="cat-desc">Projects built with React demonstrate component-based architecture and dynamic rendering. They showcase advanced Front-end techniques such as state management, routing, conditional rendering, and API integration. These applications reflect scalable design and modern development practices.</p>
+					<div class="proj-cards category-4 d-grid mt-4 pt-2">
+						
+					</div>
+				</div>
+
+			</div>	
+
+		</div>
+	</main>
+	<!-- <footer>
+	</footer> -->
+
+	
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	
+	<script>
+		const swip_top = new Swiper('.swip-gallery', {
+			slidesPerView: 1,
+      spaceBetween: 10,
+			
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true
+			},
+			
+		});
+	</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<script src="./assets/js/main.js"></script>
+
+</body>
+</html>
