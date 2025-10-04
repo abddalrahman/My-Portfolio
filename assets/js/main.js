@@ -10,12 +10,18 @@ if(skillsSpans.length > 0){
 const openEle = document.querySelector('.open-aside')
 openEle.addEventListener('click', function(){
 	document.querySelector('.aside-section').classList.add('show')
+	document.querySelector('.aside-section').focus()
 })
 
 // clode aside 
 const closeEle = document.querySelector('.close-aside')
 closeEle.addEventListener('click', function(){
 	document.querySelector('.aside-section').classList.remove('show')
+})
+const asideEle = document.querySelector('.aside-section')
+asideEle.addEventListener('blur', function(){
+	console.log('aasad')
+	asideEle.classList.remove('show')
 })
 
 // projects info 
